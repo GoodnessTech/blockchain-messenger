@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blockchain Messenger</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- ✅ WALLET STATUS SECTION -->
+    <div id="walletStatus">
+      🔌 Not connected
+    </div>
+
+    <h1>📩 Blockchain Messenger</h1>
+
+    <p><strong>Current Message:</strong></p>
+    <div id="messageDisplay" class="value">Loading...</div>
+
+    <p><strong>Change Counter:</strong></p>
+    <div id="counterDisplay" class="value">0</div>
+
+    <input type="text" id="msgInput" placeholder="Type new message" />
+    <button onclick="updateMessage()">Update Message</button>
+
+    <button onclick="connectWallet()">🔗 Connect Wallet</button>
+
+  </div>
+
+  <div class="footer">
+    Built by <a href="https://x.com/KingTublas" target="_blank">@kingTublas</a> • Deployed onchain
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
