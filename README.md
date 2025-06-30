@@ -1,18 +1,22 @@
-# 🧠 Blockchain Messenger
+# Blockchain Messenger
 
 A simple decentralized message board on the blockchain.
 
-- 🟢 Anyone can **read** the message
-- 🔐 Only the contract **owner** can **write** (edit/update) it
+- Anyone can **read** the message
+- Only the contract **owner** can **write** (edit/update) it
 - Built with **Solidity, Ethers.js, and MetaMask**
 
-## 🛠 How It Works
+## Live Demo
+
+https://blockchain-messenger.vercel.app/
+
+## How It Works
 
 - Smart contract stores `worldMessage` and `changeCounter`
 - Frontend connects using MetaMask and Ethers.js
 - If you're the owner, you can update the message on-chain
 
-## 📦 Tech Stack
+## Tech Stack
 
 - Solidity (Remix)
 - Ethers.js
@@ -20,6 +24,6 @@ A simple decentralized message board on the blockchain.
 - MetaMask
 - Vercel for hosting
 
-## ✨ Built by
+## Built by
 
-[@kingTublas](https://x.com/kingTublas) 👑
+[@kingTublas](https://x.com/kingTublas)
